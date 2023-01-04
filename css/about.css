@@ -1,0 +1,17 @@
+/* ABOUT */
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.chef-andy-photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 8px 8px rgb(53, 53, 53);
+}

@@ -1,0 +1,133 @@
+/* HOME */
+
+/* ---------- Section 1: Introduction ---------- */
+/* Flex container */
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+/* Flex items */
+.section1 .chef-home-photo {
+    width: 100%;
+    height: auto;
+    box-shadow: 8px 8px rgb(53, 53, 53); 
+    border-radius: 8px;
+}
+
+.section1 .about-section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 2.5% 0;
+    max-width: 50%;
+}
+
+/* Button */
+.aboutme-btn {
+    padding: 10px;
+    margin: 15px 0 30px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(58, 98, 138);
+    color: white;
+}
+
+.aboutme-btn:hover {
+    opacity: 0.8;
+}
+
+/* ---------- Section 2: Services Overview ----------*/
+/* Flex container */
+.food-services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* Flex item */
+.food-services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    min-height: 300px;
+    margin: 5px 10px;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: inset 0 0 5px 5px rgb(155, 154, 154);
+    background-color: rgb(214, 211, 211);
+    transition: transform ease 0.5s;
+}
+
+.food-services-item:hover {
+    transform: translate(0, -10px);
+}
+
+.services-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Services button */
+.food-services-item .services-btn {
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(43, 44, 44);
+    color: white;
+    align-self: stretch;
+    text-align: center;
+}
+
+.services-btn {
+    margin-top: auto;
+    align-self: flex-start;
+    margin-bottom: 0.25rem;
+}
+
+.services-btn:hover {
+    opacity: 0.8;
+}
+
+/* ---------- Media Queries ---------- */
+@media (max-width: 900px) {
+    .section1 {
+        flex-wrap: wrap;
+    }
+    .section1 .about-section {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .food-services-item {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .food-services-item {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .food-services-item {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .food-services-item {
+        max-width: 200px;
+    }
+}

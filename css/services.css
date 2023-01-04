@@ -1,0 +1,94 @@
+/* SERVICES */
+
+.body-content {
+    background-image: url("../images/chef-plating.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services-header, .services-background, .menu-container {
+    background-color: rgba(129, 120, 120, 0.8);
+}
+
+/* Flex container */
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Flex item */
+.services-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: 5px 10px;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: inset 0 0 5px 5px rgb(155, 154, 154);
+    background-color: rgba(231, 227, 227, 0.8);
+}
+
+/* Section 2: The Menu */
+
+h3 {
+    text-align: center;
+}
+
+/* Utility Classes */
+.less-margin-top {
+    margin-top: 0px;
+}
+
+.less-margin-bottom {
+    margin-bottom: 0px;
+}
+
+/* Flex container */
+.menu-section {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.services-icon {
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Flex item */
+.menu-section .menu-item {
+    padding: 10px 25px;;
+    max-width: 960px;
+    background-color: rgba(231, 227, 227, 0.8);
+    border-radius: 5px;
+    box-shadow: 8px 8px rgb(46, 45, 45);
+}
+.menu-section .menu-img-container {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.menu-section .img-3-course-meal {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0);
+    border: 5px solid transparent;
+    transition: 0.5s;
+}
+
+.img-3-course-meal:hover {
+    transform: translateY(-10px);
+    border: 5px solid black;
+}
